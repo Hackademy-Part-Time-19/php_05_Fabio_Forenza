@@ -1,6 +1,6 @@
 <?php
 
-class Vertebrates {
+class Vertebrate {
 
     protected function getSpecialization() {
 
@@ -14,7 +14,7 @@ class Vertebrates {
  
 }
 
-class Warm_Blooded extends Vertebrates{
+class Warm_Blooded extends Vertebrate{
     
     protected function getSpecialization() {
 
@@ -28,7 +28,7 @@ class Warm_Blooded extends Vertebrates{
 
 }
 
-class Cold_Blooded extends Vertebrates{
+class Cold_Blooded extends Vertebrate{
     
     protected function getSpecialization() {
 
@@ -42,7 +42,7 @@ class Cold_Blooded extends Vertebrates{
 
 }
 
-class Mammals extends Warm_Blooded {
+class Mammal extends Warm_Blooded {
     
     protected function getSpecialization() {
 
@@ -85,7 +85,7 @@ class Fish extends Cold_Blooded {
 
 }
 
-class Reptiles extends Cold_Blooded {
+class Reptile extends Cold_Blooded {
     
     protected function getSpecialization() {
 
@@ -99,7 +99,7 @@ class Reptiles extends Cold_Blooded {
 
 }
 
-class Amphibians extends Cold_Blooded {
+class Amphibian extends Cold_Blooded {
     
     protected function getSpecialization() {
 
